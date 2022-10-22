@@ -17,6 +17,10 @@ h1 {
   font-size: 4rem;
 }
 
+h1:hover {
+  color: black;
+}
+/* From https://css-tricks.com/how-to-create-neon-text-with-css/ */
 .neonText {
   color: #fff;
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
@@ -25,8 +29,31 @@ h1 {
 
 section {
   padding: 15px;
+  margin-top: 15px;
 }
 
 .emoji {
   font-size: 4rem;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-shadow: 2px 2px #0fa;
+}
+
+.reviews {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  font-size: 1.5rem;
+}
+
+.review {
+  list-style-type: none;
+  padding: 5px;
+  border: solid black 3px;
+  box-shadow: 5px 5px 5px white;
 }
