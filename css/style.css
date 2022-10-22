@@ -2,7 +2,7 @@ body {
   text-align: center;
   color: black;
   text-shadow: 2px 2px white;
-  background-color: #0fa;
+  background-color: #dbf227;
   font-family: 'Roboto', sans-serif;
   font-size: 2rem;
 }
@@ -22,14 +22,20 @@ h1:hover {
 }
 /* From https://css-tricks.com/how-to-create-neon-text-with-css/ */
 .neonText {
+  font-family: 'Noto Sans Mono', monospace, sans-serif;
   color: #fff;
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
-    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #dbf227,
+    0 0 82px #dbf227, 0 0 92px #dbf227, 0 0 102px #dbf227, 0 0 151px #dbf227;
 }
 
-section {
+.section1 {
   padding: 15px;
-  margin-top: 15px;
+  margin-top: 50px;
+}
+
+.section2 {
+  padding: 15px;
+  margin-bottom: 50px;
 }
 
 .emoji {
@@ -39,7 +45,7 @@ section {
 footer {
   background-color: black;
   color: white;
-  text-shadow: 2px 2px #0fa;
+  text-shadow: 2px 2px #dbf227;
 }
 
 .reviews {
@@ -56,4 +62,41 @@ footer {
   padding: 5px;
   border: solid black 3px;
   box-shadow: 5px 5px 5px white;
+}
+
+.review:hover {
+  filter: invert(100%);
+}
+/* From https://codepen.io/Digitango/pen/YQQBXR */
+.emoji:hover {
+  animation: wiggle 75ms infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: translate(2px, 0);
+  }
+  50% {
+    transform: translate(-2px, 0);
+  }
+  100% {
+    transform: translate(2px, 0);
+  }
+}
+
+.credits {
+  font-size: 1rem;
+}
+
+img:hover {
+  width: 525px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+a {
+  color: black;
 }
