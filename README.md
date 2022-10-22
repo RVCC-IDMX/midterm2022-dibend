@@ -1,3 +1,3 @@
 # David DiBenedetto's Midterm
 
-Website building service selling website
+Embelished website building service selling website
