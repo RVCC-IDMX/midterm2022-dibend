@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  color: black;
+  text-shadow: 2px 2px white;
+  background-color: #0fa;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+}
+
+header {
+  padding: 15px;
+  background-color: black;
+  box-shadow: 5px 5px 5px black;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.neonText {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+}
+
+section {
+  padding: 15px;
+}
+
+.emoji {
+  font-size: 4rem;
+}
